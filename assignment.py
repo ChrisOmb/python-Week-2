@@ -22,3 +22,21 @@ list_2=[50,60,70]
 
 my_list.extend(list_2)
 print(my_list)
+
+# Remove the last element
+
+my_list.remove(70)
+print(my_list)
+
+# sort the list in ascending order
+
+sorted_list=sorted(my_list)
+print(sorted_list)
+
+
+# sorted_list.sort(reverse=True)
+# print(sorted_list)
+
+# find and print the index of 30
+index=my_list.index(30)
+print(index)
